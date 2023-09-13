@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/lilei/peppa/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/lilei/catkin_ws/src/camera_node/include/**",
+                "/home/lilei/catkin_ws/src/darknet_ros-1.1.5/darknet_ros/include/**",
+                "/home/lilei/catkin_ws/src/object_tracking/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

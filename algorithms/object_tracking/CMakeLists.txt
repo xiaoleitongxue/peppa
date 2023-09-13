@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(object_tracking VERSION 0.1.0)
+
+include(CTest)
+enable_testing()
+find_package(OpenCV REQUIRED PATHS "~/my_lib/build")
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(object_tracking main.cpp)
+target_link_libraries(object_tracking ${OpenCV_LIBS} )
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)
